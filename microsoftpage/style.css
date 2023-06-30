@@ -1,0 +1,190 @@
+*{
+    padding:0;
+    margin: 0;
+}
+.mainsec{
+    width:100vw;
+    display: flex;
+    height: 80px;
+}
+.mainsec ul{
+    list-style: none;
+    display: flex;
+    width:100%;
+    padding:15px;
+    /* background-color: pink; */
+    align-items: center;
+    
+   
+}
+
+.mainsec ul img{
+    width:50px;
+   
+}
+.start{
+    padding-right: 20px;
+    font-size: larger;
+}
+
+.start li
+{
+    padding-right: 20px;
+   
+}
+.end{
+    /* float: left; */
+   
+    padding-right: 20px;
+    font-size: larger;
+}
+.end li{
+   position: absolute;
+   right: 150px;   
+    font-size: larger;
+}
+a{
+    text-decoration: none;
+}
+
+.section1 {
+    width: 100vw;
+    height: 250px;
+    background-color: #86d2f0;
+}
+
+#sec1{
+    padding-top: 30px;
+    padding-left: 120px;
+
+}
+#sec-left
+{
+    float: left; 
+    margin-left:300px ;
+    margin-top: 40px;
+
+}
+#sec-left img{
+    float: left;
+}
+#sec-right{
+
+    float: right;
+    margin-right: 500px;
+    margin-top: 40px;
+
+}
+
+.container3{
+    width:100vw;
+    display: flex;
+    height: 50px;
+   padding: 15px;
+    /* background-color: aqua; */
+}
+.container3 button {
+    
+  color:#3d4142;
+  padding: 10px;
+  margin-right: 20px;
+  width: 100px;
+  font-size: medium;
+ border: none;
+}
+/* jquery effect slidein for khulna and band hona */
+/* slideToggle */
+.first{
+   
+    margin-left: 40vw;
+
+}
+
+.middle{
+    color: azure;
+    background-color:#1677d9;
+    color: aliceblue;
+}
+
+.container4{
+     /* background-color: #1677d9;  */
+    width: 100vw;
+    height: 1300px;
+    display: flex;
+}
+.sec4-right{
+width:25vw;
+height :100%;
+ /* background-color: pink;  */
+float: right;
+margin-left: 50px;
+   
+}
+
+.sec4-left
+{
+    width: 72vw;
+    height:100%;
+    margin-left: 20px;
+    
+   
+}
+.sec4-right input, select{
+    width: 75%;
+    height: 40px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-right: 10px;
+  
+}
+.sec4-right a:hover{
+    text-decoration: underline;
+    
+}
+.sec4-left section{
+    width:72vw;
+    /* margin:50px auto ; */
+    height:1300px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sec4-left figure{
+    width: 300px;
+    text-align: center;
+    border :1px solid #ccc;
+    margin:10px;
+
+    box-shadow: 0px 0px 2px  rgb( 104, 104 , 104);
+}
+.sec4-left figure img{
+    width: 95%;
+    height: 230px;
+    padding: 8px;
+}
+.sec4-left figure:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+}
+.container5{
+    width: 100vw;
+    padding: 20px;
+    margin-left: 40px;
+    height:250px;
+    line-height: 25px;
+    /* background-color: #1677d9; */
+   
+ 
+}
+.container5 a
+{
+text-decoration: none;
+color:#0067b8;
+}
+.container5 a:hover
+{
+text-decoration:underline;
+/* color:#0067b8; */
+}
